@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Montserrat:wght@400;700&family=Cormorant+Garamond:wght@400;700&display=swap');
+.filters {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px 70px;
+  width: 350px;
+}
+
+.customizable-checkbox {
+  color: #4d4d4d;
+}
+.customizable-label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.all-text {
+  color: #252020;
+  font-size: 18px;
+}
+.aside-items {
+  padding: 10px 0;
+}
+.aside-items-break {
+  width: 350px;
+}
+.aside-items-container {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.show-ideal-items-container {
+  display: flex;
+  flex-direction: column;
+}
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.unselect-text {
+  color: #bfc8cd;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+.checkbox {
+  height: 20px;
+  width: 20px;
+}

@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Montserrat:wght@400;700&family=Cormorant+Garamond:wght@400;700&display=swap');
+
+.app {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.horizontal-line-break {
+  width: 100vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-page-data {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.main-page-text-heading {
+  width: 721px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252020;
+}
+.main-page-decription {
+  width: 721px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  text-align: center;
+  color: #252020;
+}
+.filter-header-container {
+  margin: 25px 70px;
+  display: flex;
+  justify-content: space-between;
+  border-width: 1px 0;
+  border: 1px solid #e5e5e5;
+  padding: 25px;
+  align-items: center;
+}
+.filter-header {
+  display: flex;
+  gap: 35px;
+}
+.mobile-head {
+  display: none;
+}
+.number-of-items {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  color: #252020;
+}
+.show-hide-filter-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.show-hide-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.backarrow {
+  width: 20px;
+  height: 20px;
+}
+.hide-show-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  text-align: right;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+.sorting-container {
+  box-shadow: 0px 0px 7px 1px #a3aaaf33;
+  text-align: right;
+  color: #252020;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+.main-content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 400px 1fr;
+  grid-gap: 50px;
+}
+.desktop-filters {
+  display: block;
+}
+.mobile-filters {
+  display: none;
+}
+.product-container {
+  padding: 70px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 920px) {
+  .main-content {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 350px 1fr;
+    grid-gap: 50px;
   }
-  to {
-    transform: rotate(360deg);
+  .product-container {
+    padding: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .main-page-data {
+    margin: 10px;
+  }
+  .main-page-text-heading {
+    font-size: 24px;
+    width: 100%;
+  }
+  .main-page-decription {
+    font-size: 16px;
+    width: 100%;
+  }
+  .filter-header-container {
+    margin: 18px;
+    padding: 10px;
+  }
+  .mobile-head {
+    display: inline;
+    font-size: 14px;
+    border-right: 1px solid;
+    cursor: pointer;
+  }
+  .filter-header {
+    display: none;
+  }
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sorting-container {
+    font-size: 14px;
+    width: 160px;
+  }
+  .desktop-filters {
+    display: none;
+  }
+  .mobile-filters {
+    display: block;
   }
 }
