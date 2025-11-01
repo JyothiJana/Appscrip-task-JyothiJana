@@ -59,39 +59,39 @@ const Header = () => {
         </ul>
       </div>
       <nav className='nav-bar'>
-        <a href='#' className='nav-item'>
+        <button type='button' className='nav-item'>
           SHOP
-        </a>
-        <a href='#' className='nav-item'>
+        </button>
+        <button type='button' className='nav-item'>
           SKILLS
-        </a>
-        <a href='#' className='nav-item'>
+        </button>
+        <button type='button' className='nav-item'>
           STORIES
-        </a>
-        <a href='#' className='nav-item'>
+        </button>
+        <button type='button' className='nav-item'>
           ABOUT
-        </a>
-        <a href='#' className='nav-item'>
+        </button>
+        <button type='button' className='nav-item'>
           CONTACT US
-        </a>
+        </button>
       </nav>
       {menuOpen && (
         <div className='dropdown-menu'>
-          <a href='#' className='dropdown-item'>
+          <button type='button' className='dropdown-item'>
             SHOP
-          </a>
-          <a href='#' className='dropdown-item'>
+          </button>
+          <button type='button' className='dropdown-item'>
             SKILLS
-          </a>
-          <a href='#' className='dropdown-item'>
+          </button>
+          <button type='button' className='dropdown-item'>
             STORIES
-          </a>
-          <a href='#' className='dropdown-item'>
+          </button>
+          <button type='button' className='dropdown-item'>
             ABOUT
-          </a>
-          <a href='#' className='dropdown-item'>
+          </button>
+          <button type='button' className='dropdown-item'>
             CONTACT US
-          </a>
+          </button>
         </div>
       )}
     </header>

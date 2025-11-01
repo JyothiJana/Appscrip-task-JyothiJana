@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Montserrat:wght@400;700&family=Cormorant+Garamond:wght@400;700&display=swap');
+.footer {
+  background-color: black;
+  padding: 30px 70px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-top-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 35px;
+}
+.footer-top-left-container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-top-left-head {
+  font-family: Simplon Norm;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.footer-top-left-description {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+}
+.enter-email-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+.input-container {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.button {
+  width: 184px;
+  height: 48px;
+  border-width: 1.14px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+.horizontal-line {
+  color: #ffffff;
+}
+.footer-list-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+.footer-botom-container {
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.icons {
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+}
+.footer-list-container-bottom {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+.image {
+  width: 56px;
+  height: 35px;
+}
+.list-items {
+  cursor: pointer;
+}
