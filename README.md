@@ -71,17 +71,17 @@ This copies all configuration files (webpack, Babel, ESLint, etc.) to give you f
 1. Run:
    ```bash
    npm run build
-Login to Netlify
+2. Login to Netlify
 
-Connect your GitHub repository
+3. Connect your GitHub repository
 
-Set:
+4. Set:
 
-Build command: npm run build
+   Build command: npm run build
+   
+   Publish directory: build
 
-Publish directory: build
-
-Click Deploy Site
+5. Click Deploy Site
 
 
 👩‍💻 Author
